@@ -1,0 +1,41 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+#python generated lib directories for app engine
+/lib
+/lib64
+
+# Mac OS Files
+.DS_Store
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.project
+.pydevproject
+
+# Pycharm configuration
+.idea
