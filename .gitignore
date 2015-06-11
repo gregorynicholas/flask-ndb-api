@@ -1,41 +1,46 @@
-*.py[cod]
-
-# C extensions
-*.so
-
-# Packages
+# packages
 *.egg
 *.egg-info
 dist
 build
 eggs
 parts
-bin
+# bin
 var
 sdist
 develop-eggs
 .installed.cfg
+*.swp
 
-#python generated lib directories for app engine
-/lib
-/lib64
-
-# Mac OS Files
-.DS_Store
-
-# Installer logs
+# installer logs
 pip-log.txt
 
-# Unit test / coverage reports
+# unit test / coverage reports
 .coverage
-nosetests.xml
+.tox
 
-# Translations
+# translations
 *.mo
 
-# Mr Developer
-.project
-.pydevproject
+# mr developer
+.mr.developer.cfg
 
-# Pycharm configuration
-.idea
+# sphinx docs
+docs/_build
+docs/build
+.DS_Store
+.nojekyll
+searchindex.js
+objects.inv
+/*.html
+/_static/
+/_sources/
+
+# osx files
+.DS_Store
+
+# python generated lib directories for app-engine
+/lib
+/lib64
+# python compiled code
+*.py[co]
