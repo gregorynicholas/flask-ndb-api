@@ -1,4 +1,4 @@
 flask
-blinker
+blinker==1.4
 flask-wtf==0.8.2
 wtforms-json==0.1.2
