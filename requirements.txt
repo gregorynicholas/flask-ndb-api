@@ -1,4 +1,4 @@
 flask
 blinker
 flask-wtf==0.8.2
-wtforms-json==0.1.2
+wtforms-json==0.3.3
